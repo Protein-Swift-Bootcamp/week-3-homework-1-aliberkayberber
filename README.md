@@ -9,4 +9,4 @@
 => protocol, notification center, closure
 
 
-![picture1](/picture.png "picture1")
+![picture1](/Users/aliberkayberber/Documents/GitHub/week-3-homework-1-aliberkayberber/picture.png "picture1")
