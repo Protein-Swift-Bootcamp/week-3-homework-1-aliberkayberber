@@ -7,3 +7,6 @@
 => ikinci VC den ilk VC’a veriler 3 Farklı yol ile aktarılabilir.
 
 => protocol, notification center, closure
+
+
+![picture1](/picture.png "picture1")

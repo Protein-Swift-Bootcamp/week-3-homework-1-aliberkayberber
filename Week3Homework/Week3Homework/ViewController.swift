@@ -20,9 +20,9 @@ class ViewController: UIViewController {
         
         // to get struct
         NotificationCenter.default.addObserver(self, selector: #selector(load(data: )), name: NSNotification.Name(rawValue: "personLoad"), object: nil)
-
+        
     }
-
+    
     @IBAction func nextClicked(_ sender: Any) {
         
         
