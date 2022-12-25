@@ -7,7 +7,7 @@
 => ikinci VC den ilk VC’a veriler 3 Farklı yol ile aktarılabilir.
 
 => protocol, notification center, closure
-<<<<<<< HEAD
+
 
 
 ![picture1](/Users/aliberkayberber/Documents/GitHub/week-3-homework-1-aliberkayberber/picture.png "picture1")
