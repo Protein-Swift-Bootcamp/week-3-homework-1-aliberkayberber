@@ -8,13 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-  /*
-    var sendName = ""
-    var sendSurname = ""
-    var sendHometown = ""
-
-*/
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var surnameLabel: UILabel!
@@ -25,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        // to get struct
         NotificationCenter.default.addObserver(self, selector: #selector(load(data: )), name: NSNotification.Name(rawValue: "personLoad"), object: nil)
 
     }
@@ -34,6 +27,7 @@ class ViewController: UIViewController {
         
         
     }
+    // to assign label
     @objc func load(data: Notification) {
         if let userInfoName = data.userInfo {
             let name = userInfoName["name"] as! String

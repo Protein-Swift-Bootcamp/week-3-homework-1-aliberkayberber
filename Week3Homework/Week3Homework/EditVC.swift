@@ -45,9 +45,7 @@ class EditVC: UIViewController {
         // to send view controller
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: "personLoad"), object: nil, userInfo: ["name" : firstPerson.sendName, "surname" : firstPerson.sendSurname , "hometown" : firstPerson.sendHometown])
     }
-    func dataSaver() {
-        
-    }
+
 
     
 }
